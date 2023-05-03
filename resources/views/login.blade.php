@@ -9,7 +9,7 @@
         </div>
         <div class="form">
             <form class="login-form " action="{{ route('check_login') }}">
-                <h3 class="text-center">LOG IN</h3>
+                <h3 class="text-center">{{__('msg.login')}}</h3>
                 <input type="text" name="email" required placeholder="Email" id="user" autocomplete="off" />
                 <input oninput="return formvalid()" type="password" name="password" required placeholder="Password" id="pass" autocomplete="off" />
                 <img src="https://cdn2.iconfinder.com/data/icons/basic-ui-interface-v-2/32/hide-512.png"
