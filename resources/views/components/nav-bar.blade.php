@@ -21,7 +21,7 @@
                     <a class="nav-link" href="/login">Login</a>
                   </li>
                 @endauth
-              <li class="nav-item dropdown">
+              {{-- <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Languages
                 </a>
@@ -30,7 +30,7 @@
                     <option class="dropdown-item" value="mr_IN" {{ session()->get('locale') == 'mr_IN' ? 'selected' : ''}}>Marathi</option>
                     <option class="dropdown-item" value="hi_IN" {{ session()->get('locale') == 'hi_IN' ? 'selected' : ''}}>Hindi</option>
                 </select>
-              </li>
+              </li> --}}
             </ul>
             @yield('nav_bredcrumb')
           </div>
